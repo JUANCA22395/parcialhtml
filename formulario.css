@@ -1,0 +1,72 @@
+body {
+    background-color: #e9ebee;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3b5998;
+    color: white;
+    padding: 15px 40px;
+    text-align: left;
+    font-size: 22px;
+    font-weight: bold;
+    border-bottom: 3px solid #2d4373;
+}
+
+nav {
+    background-color: #4267B2;
+    display: flex;
+    justify-content: center;
+    padding: 12px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #314d86;
+}
+
+.todoPersonal {
+    background-color: white;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 8px;
+    max-width: 700px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, select {
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #3b5998;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #2d4373;
+}
